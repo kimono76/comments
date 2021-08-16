@@ -26,6 +26,6 @@ app.post('/posts/:id/comments',(req,res)=>{
 })
 
 app.listen(4001, ()=>{
-
+    console.log('listening on 4001')
 })
 
